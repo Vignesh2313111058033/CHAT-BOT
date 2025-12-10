@@ -1,0 +1,15 @@
+CS Department Syllabus 2024:
+
+Semester 1:
+Unit 1: Introduction to Computers, Number Systems, Algorithms.
+Unit 2: Python Basics – Variables, Loops, Functions.
+Unit 3: Data Structures – Array, Linked List, Stack, Queue.
+Unit 4: Operating System Basics.
+Unit 5: DBMS Basics and SQL Queries.
+
+Semester 2:
+Unit 1: Object Oriented Programming Concepts.
+Unit 2: Java Basics – Classes, Objects, Inheritance.
+Unit 3: Computer Networks – OSI Model, TCP/IP.
+Unit 4: Software Engineering – SDLC.
+Unit 5: Mini Project.

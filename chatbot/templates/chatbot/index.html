@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Assistant AI</title>
+    <style>
+        body {
+            margin: 0;
+            background: #0d0d0d;
+            font-family: "Inter", sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            color: #fff;
+        }
+
+        /* Header */
+        header {
+            padding: 15px 20px;
+            background: #1a1a1a;
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #2a2a2a;
+        }
+
+        /* Chat Container */
+        #chat-container {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .msg {
+            margin: 10px 0;
+            max-width: 70%;
+            padding: 12px 15px;
+            border-radius: 12px;
+            line-height: 1.5;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .user {
+            background: #0056ff;
+            margin-left: auto;
+        }
+
+        .bot {
+            background: #1f1f1f;
+            border: 1px solid #333;
+        }
+
+        /* Input Area */
+        #input-area {
+            padding: 10px;
+            background: #1a1a1a;
+            border-top: 1px solid #333;
+            display: flex;
+            gap: 10px;
+        }
+
+        input {
+            flex: 1;
+            padding: 12px;
+            background: #0f0f0f;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 18px;
+            border: none;
+            background: #0056ff;
+            color: white;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0043cc;
+        }
+
+        /* Typing Animation */
+        .typing {
+            width: 10px;
+            height: 10px;
+            background: #ccc;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 0 3px;
+            animation: blink 1.4s infinite both;
+        }
+
+        .typing:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes blink {
+            0% { opacity: .2; }
+            20% { opacity: 1; }
+            100% { opacity: .2; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+    </style>
+
+    <script>
+        async function askAI() {
+            const question = document.getElementById("question").value;
+            if (!question.trim()) return;
+
+            addMessage(question, "user");
+            document.getElementById("question").value = "";
+
+            // Add typing indicator
+            const typingId = addTyping();
+
+            const response = await fetch(`/ask/?q=${encodeURIComponent(question)}`);
+            const data = await response.json();
+
+            removeTyping(typingId);
+            addMessage(data.answer || data.error, "bot");
+        }
+
+        function addMessage(text, sender) {
+            const chat = document.getElementById("chat-container");
+            const div = document.createElement("div");
+            div.className = `msg ${sender}`;
+            div.innerText = text;
+            chat.appendChild(div);
+            chat.scrollTop = chat.scrollHeight;
+        }
+
+        function addTyping() {
+            const chat = document.getElementById("chat-container");
+            const div = document.createElement("div");
+            div.className = "msg bot";
+            div.id = "typing";
+
+            div.innerHTML = `
+                <span class="typing"></span>
+                <span class="typing"></span>
+                <span class="typing"></span>
+            `;
+
+            chat.appendChild(div);
+            chat.scrollTop = chat.scrollHeight;
+            return "typing";
+        }
+
+        function removeTyping(id) {
+            const el = document.getElementById(id);
+            if (el) el.remove();
+        }
+    </script>
+
+</head>
+<body>
+    <header>College Assistant AI</header>
+
+    <div id="chat-container"></div>
+
+    <div id="input-area">
+        <input type="text" id="question" placeholder="Ask anything..." 
+               onkeydown="if(event.key === 'Enter') askAI()"/>
+        <button onclick="askAI()">Send</button>
+    </div>
+</body>
+</html>

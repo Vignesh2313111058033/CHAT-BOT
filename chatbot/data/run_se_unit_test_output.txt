@@ -1,0 +1,68 @@
+Query: second unit software engineering
+Detected subject: se
+Detected unit: 2
+Candidates: 3
+--- Candidate 0 match_unit=False ---
+Unit V Coding & Testing – coding – Review – Documentation – Testing – Black-box,
+
+Interaction, Activity, 
+State Chart – Postscript 
+V 
+Coding & Testing – coding – Review – Documentation – Testing – Black-box, 
+White-box, Integration, 
+OO Testing, Smoke testing. 
+ 
+TEXT BOOK: 
+1. Rajib Mall, “Fundamentals of Software Engineering”, PHI 2018, 5th Edition. 
+REFERENCE BOOKS: 
+1. Roger S. Pressman, “Software Engineering - A Practitioner’s Approach”, McGraw Hill 
+2010, 7thEdition. 
+2. Pankaj Jalote, “An Integrated Approach to Software Engineering”, Narosa Publishing 
+House 2011,3rd Edition. 
+WEB REFERENCES: 
+NPTEL online course – Software Engineering - https://nptel.ac.in/courses/106105182/
+
+
+--- Candidate 1 match_unit=True ---
+Unit I Introduction – Evolution – Software Development projects – Emergence of Software
+
+1. The students should be able to specify software requirements, design the software using 
+tools 
+2. To write test cases using different testing techniques. 
+ 
+Units Contents 
+I 
+Introduction – Evolution – Software Development projects – Emergence of Software 
+Engineering.Software Life cycle models – Waterfall model – Rapid Application 
+Development – Agile Model – SpiralModel 
+II Requirement Analysis and Specification – Gathering and Analysis – SRS – Formal 
+System Specification 
+III 
+Software Design – Overview – Characteristics – Cohesion & Coupling – Layered 
+design – Approaches 
+Function Oriented Design – Structured Analysis – DFD – Structured Design – 
+Detailed design 
+IV 
+Object Modeling using UML – OO concepts – UML – Diagrams – Use case, Class, 
+Interaction, Activity,
+
+
+--- Candidate 2 match_unit=False ---
+UNIVERSITY OF MADRAS 
+B.Sc. DEGREE PROGRAMME IN COMPUTER SCIENCE 
+SYLLABUS WITH EFFECT FROM 2023-2024 
+ 
+Year: III                     Semester: V 
+  Software Engineering 
+Common for B.C.A. , B.Sc.-SA , B.Sc.-CSc , B.Sc.-CSc-wAI , B.Sc.-CSc-wDS 
+325E5D 
+Credits 3 Lecture Hours: 4 per 
+week 
+Learning Objectives: (for teachers: what they have to do in the class/lab/field) 
+ To introduce the software development life cycles 
+ To introduce concepts related to structured and objected oriented analysis & design co 
+ To provide an insight into UML and software testing techniques 
+Course Outcomes: (for students: To know what they are going to learn) 
+1. The students should be able to specify software requirements, design the software using 
+tools
+

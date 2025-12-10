@@ -1,0 +1,132 @@
+{
+  "December_2025": [
+    {"date": "2025-12-01", "day": "Mon", "day_order": 6, "event": null, "working_day_
+number": 6},
+    {"date": "2025-12-02", "day": "Tue", "day_order": 1, "event": null, "working_day_n
+umber": 7},
+    {"date": "2025-12-03", "day": "Wed", "day_order": 2, "event": null, "working_day_
+number": 8},
+    {"date": "2025-12-04", "day": "Thu", "day_order": 3, "event": null, "working_day_n
+umber": 9},
+    {"date": "2025-12-05", "day": "Fri", "day_order": 4, "event": "Assembly   B.Sc 
+(C & CJS)", "working_day_number": 10},
+    {"date": "2025-12-06", "day": "Sat", "day_order": 5, "event": null, "working_day_n
+umber": 11},
+    {"date": "2025-12-07", "day": "Sun", "day_order": null, "event": "Holiday", "workin
+g_day_number": null},
+    {"date": "2025-12-08", "day": "Mon", "day_order": 6, "event": null, "working_day_
+number": 12},
+    {"date": "2025-12-09", "day": "Tue", "day_order": 1, "event": null, "working_day_n
+umber": 13},
+    {"date": "2025-12-10", "day": "Wed", "day_order": 2, "event": null, "working_day_
+number": 14},
+    {"date": "2025-12-11", "day": "Thu", "day_order": 3, "event": null, "working_day_n
+umber": 15},
+    {"date": "2025-12-12", "day": "Fri", "day_order": 4, "event": "Assembly-B.Com Ge
+neral", "working_day_number": 16},
+    {"date": "2025-12-13", "day": "Sat", "day_order": null, "event": "Holiday", "workin
+g_day_number": null},
+    {"date": "2025-12-14", "day": "Sun", "day_order": null, "event": "Holiday", "workin
+g_day_number": null},
+    {"date": "2025-12-15", "day": "Mon", "day_order": 5, "event": null, "working_day_
+number": 17},
+    {"date": "2025-12-16", "day": "Tue", "day_order": 6, "event": null, "working_day_n
+umber": 18},
+    {"date": "2025-12-17", "day": "Wed", "day_order": 1, "event": null, "working_day_
+number": 19},
+    {"date": "2025-12-18", "day": "Thu", "day_order": 2, "event": null, "working_day_n
+umber": 20},
+    {"date": "2025-12-19", "day": "Fri", "day_order": 3, "event": "Assembly-B.Com(A&F
+;)", "working_day_number": 21},
+    {"date": "2025-12-20", "day": "Sat", "day_order": 4, "event": null, "working_day_n
+umber": 22},
+
+    {"date": "2025-12-21", "day": "Sun", "day_order": null, "event": "Holiday", "workin
+g_day_number": null},
+    {"date": "2025-12-22", "day": "Mon", "day_order": 5, "event": null, "working_day_
+number": 23},
+    {"date": "2025-12-23", "day": "Tue", "day_order": 6, "event": null, "working_day_n
+umber": 24},
+    {"date": "2025-12-24", "day": "Wed", "day_order": null, "event": "Semester-Holiday"
+, "working_day_number": null},
+    {"date": "2025-12-25", "day": "Thu", "day_order": null, "event": "Christmas-Holiday"
+, "working_day_number": null},
+    {"date": "2025-12-26", "day": "Fri", "day_order": null, "event": "Semester-Holiday",
+ "working_day_number": null},
+    {"date": "2025-12-27", "day": "Sat", "day_order": null, "event": "Semester-Holiday",
+ "working_day_number": null},
+    {"date": "2025-12-28", "day": "Sun", "day_order": null, "event": "Semester-Holiday",
+ "working_day_number": null},
+    {"date": "2025-12-29", "day": "Mon", "day_order": null, "event": "Semester-Holiday"
+, "working_day_number": null},
+    {"date": "2025-12-30", "day": "Tue", "day_order": null, "event": "Semester-Holiday",
+ "working_day_number": null}
+  ],
+  "January_2026": [
+    {"date": "2026-01-01", "day": "Thu", "day_order": null, "event": "New Year - H
+oliday", "working_day_number": null},
+    {"date": "2026-01-02", "day": "Fri", "day_order": 1, "event": "Assembly   B.Com
+ (CA)", "working_day_number": 25},
+    {"date": "2026-01-03", "day": "Sat", "day_order": 2, "event": null, "working_day_n
+umber": 26},
+    {"date": "2026-01-04", "day": "Sun", "day_order": null, "event": "Holiday", "workin
+g_day_number": null},
+    {"date": "2026-01-05", "day": "Mon", "day_order": 3, "event": "CIA 1 EXAMIN
+ATION", "working_day_number": 27},
+    {"date": "2026-01-06", "day": "Tue", "day_order": 4, "event": null, "working_day_n
+umber": 28},
+    {"date": "2026-01-07", "day": "Wed", "day_order": 5, "event": null, "working_day_
+number": 29},
+    {"date": "2026-01-08", "day": "Thu", "day_order": 6, "event": null, "working_day_n
+umber": 30},
+    {"date": "2026-01-09", "day": "Fri", "day_order": 1, "event": "Assembly   B.CO
+M (CS)", "working_day_number": 31},
+
+    {"date": "2026-01-10", "day": "Sat", "day_order": 2, "event": null, "working_day_n
+umber": 32},
+    {"date": "2026-01-11", "day": "Sun", "day_order": null, "event": "Holiday", "workin
+g_day_number": null},
+    {"date": "2026-01-12", "day": "Mon", "day_order": 3, "event": null, "working_day_
+number": 33},
+    {"date": "2026-01-13", "day": "Tue", "day_order": null, "event": "BOGI", "working
+_day_number": null},
+    {"date": "2026-01-14", "day": "Wed", "day_order": null, "event": "PONGAL-Holiday
+", "working_day_number": null},
+    {"date": "2026-01-15", "day": "Thu", "day_order": null, "event": "THIRUVALLUR-
+Holiday", "working_day_number": null},
+    {"date": "2026-01-16", "day": "Fri", "day_order": null, "event": "UZHAVAR THIR
+UMAL-Holiday", "working_day_number": null},
+    {"date": "2026-01-17", "day": "Sat", "day_order": null, "event": "Holiday", "workin
+g_day_number": null},
+    {"date": "2026-01-18", "day": "Sun", "day_order": null, "event": "Holiday", "workin
+g_day_number": null},
+    {"date": "2026-01-19", "day": "Mon", "day_order": 4, "event": null, "working_day_
+number": 34},
+    {"date": "2026-01-20", "day": "Tue", "day_order": 5, "event": null, "working_day_n
+umber": 35},
+    {"date": "2026-01-21", "day": "Wed", "day_order": 6, "event": null, "working_day_
+number": 36},
+    {"date": "2026-01-22", "day": "Thu", "day_order": 1, "event": null, "working_day_n
+umber": 37},
+    {"date": "2026-01-23", "day": "Fri", "day_order": 2, "event": "Assembly   B.Sc 
+(Viscom)", "working_day_number": 38},
+    {"date": "2026-01-24", "day": "Sat", "day_order": 3, "event": null, "working_day_n
+umber": 39},
+    {"date": "2026-01-25", "day": "Sun", "day_order": null, "event": "Holiday", "workin
+g_day_number": null},
+    {"date": "2026-01-26", "day": "Mon", "day_order": null, "event": "Republic Day-Ho
+liday", "working_day_number": null},
+    {"date": "2026-01-27", "day": "Tue", "day_order": 4, "event": null, "working_day_n
+umber": 40},
+    {"date": "2026-01-28", "day": "Wed", "day_order": 5, "event": null, "working_day_
+number": 41},
+    {"date": "2026-01-29", "day": "Thu", "day_order": 6, "event": null, "working_day_n
+umber": 42},
+    {"date": "2026-01-30", "day": "Fri", "day_order": 1, "event": "Assembly   BBA",
+ "working_day_number": 43},
+
+    {"date": "2026-01-31", "day": "Sat", "day_order": null, "event": "Holiday", "workin
+g_day_number": null}
+  ]
+}
+
